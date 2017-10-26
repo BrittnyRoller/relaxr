@@ -1,0 +1,181 @@
+/*
+Project Name: Blank Template
+Client: Relaxr
+Author: Brittny
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+
+body {
+  
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: open sans;
+ 
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 300px;
+}
+
+
+
+h2 { 
+  font-size: 24px; 
+  font-weight: lighter; 
+  
+}
+p { 
+  color: #606161;
+  font-weight: light;
+  font-size: 13px; }
+
+
+header {
+      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+      height: 500px;
+      text-align: center;
+      color: white;
+      
+
+}
+
+.toplogo { 
+  text-align: left; 
+  padding-left: 50px;
+  padding-top:  50px;
+}
+
+.topbutton { color: black;
+  font-weight: extrabold;
+  padding: 10px;
+  background-color: #f9e42e;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 150px; margin: 0 auto;
+}
+
+.benefits {
+  background: #f0efef;
+  color: #121212;
+  text-align: left;
+  height: 300px;
+  padding: 30px;  
+}
+
+.quote {
+  color: white;
+  background: #033048;
+  padding: 20px;
+  height: 250px;
+  text-align: center;
+  font-weight: light;
+  font-size: 18px;
+}
+
+.botbut {
+  background: #f9e42e;
+  height: 80px;
+  text-align: center;
+  color: white;
+
+}
+
+ul { 
+  font-size: 13px;
+  font-weight: light; 
+  color: #606161 
+}
+
+.bottombutton {
+  background: #033048;
+  font-weight: bold;  
+  font-size: 12px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 5px;
+}
+
+footer {
+  color: white;
+  background: #033048;
+  text-align: center;
+  padding: 30px;
+}
+
+.bottomlogo  {
+  color: #f9e42e;
+  padding-bottom: 15px;
+}
+
+.twitter { 
+  padding-right: 15px;
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.facebook {
+  padding-left: 15px;
+  width: 50%;
+  float: left;
+  text-align: left;
+ 
+}
+.copyright  {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  clear: both;
+  height: 30px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
